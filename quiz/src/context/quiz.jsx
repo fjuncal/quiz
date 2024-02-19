@@ -18,6 +18,9 @@ const quizReducer = (state, action) =>{
                 ...state,
                 gameStage: STAGES[1],
             }
+        case "REORDER_QUESTIONS":
+            console.log("Reodernando");
+            return state;    
         
         default:
             return state;

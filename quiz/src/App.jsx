@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import { useContext } from 'react';
+import { useContext, useEffect } from 'react';
 import './App.css'
 import Welcome from './components/Welcome'
 import { QuizContext } from './context/quiz';
@@ -8,6 +8,10 @@ import Question from './components/Question';
 function App() {
   const [quizState, dispatch] = useContext(QuizContext);
 
+  //executa uma vez quando a aplicação é inicada
+  useEffect( () => {
+    dispatch({type: "REORDER_QUESTIONS"})
+  }, [])
 
   return (
     <>
