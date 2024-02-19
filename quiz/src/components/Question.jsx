@@ -8,7 +8,6 @@ const Question = () => {
 
     const [quizState, dispatch] = useContext(QuizContext)
     const currentQuestion = quizState.questions[quizState.currentQuestion];
-    console.log(quizState);
 
     const onSelectOption = (option) => {
       dispatch({
