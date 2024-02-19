@@ -1,34 +1,34 @@
 const data = [
     {
-      question: "O que é Vanilla JavaScript?",
+      question: "Em que ano eu e a nathinha nos conhecemos?",
       options: [
-        "JavaScript puro",
-        "Uma biblioteca JavaScript",
-        "Um framework JavaScript",
-        "Um compilador de JavaScript",
+        "2019",
+        "2023",
+        "2021",
+        "2022",
       ],
-      answer: "JavaScript puro",
+      answer: "2021",
     },
     {
-      question: "Com qual instrução declaramos uma constante em JavaScript?",
-      options: ["const", "let", "var", "define"],
-      answer: "const",
+      question: "Nathinha se apaixonou pelo Fellipe porque?",
+      options: ["Ele é fofo", "Berinja", "Ele é gentil", "Ele tem um corpo sarado"],
+      answer: "Berinja",
     },
     {
-      question: "Qual dos tipos de dado a seguir não existe em JavaScript?",
-      options: ["string", "number", "boolean", "float"],
-      answer: "float",
+      question: "Qual presente que a Nathinha comprou que o Fellipe achou fofo?",
+      options: ["Camisa da Foxton", "Sabonete Dove", "Sorvete", "Bermuda"],
+      answer: "Sabonete Dove",
     },
     {
-      question: "Qual dos métodos a seguir seleciona um elemento?",
-      options: ["querySelector", "parseInt", "sort", "reduce"],
-      answer: "querySelector",
+      question: "Local da primeira viagem juntos?",
+      options: ["Mauá", "Guapimirim", "Guarujá", "São Paulo"],
+      answer: "Guarujá",
     },
     {
       question:
-        "Qual destas propriedades da a quantidade de elementos de um array?",
-      options: ["qty", "length", "items", "index"],
-      answer: "length",
+        "Fellipe se apaixonou pela nathinha porque?",
+      options: ["Pela sua parceria", "Por ser fofa", "Gentil", "Gente boa"],
+      answer: "Pela sua parceria",
     },
   ];
   
