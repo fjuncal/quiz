@@ -34,7 +34,7 @@ const data = [
       question:
         "Qual a data de aniversário de namoro?",
       options: ["20 de Janeiro", "20 de Fevereiro", "20 de Novembro", "20 de Dezembro"],
-      answer: "20 de Janeiro",
+      answer: "20 de Novembro",
     },
   ];
   
