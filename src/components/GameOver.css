@@ -16,5 +16,13 @@
   
   #gameover img {
     margin: 2rem;
-    height: 200px;
+    height: 550px;
+  }
+
+  #gameover .reprovado {
+    color: firebrick;
+  }
+
+  #gameover .aprovado {
+    color: green;
   }
