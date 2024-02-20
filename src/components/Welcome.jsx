@@ -2,7 +2,7 @@ import { useContext } from 'react'
 //import Quiz from '../img/quiz.svg'
 import './Welcome.css'
 import { QuizContext } from '../context/quiz'
-import EuNath from '../img/eu-natinha.jpeg'
+import EuNath from '../img/foto-capa.jpeg'
 
 const Welcome = () => {
     //quizState pego os valores e dispatch altera
